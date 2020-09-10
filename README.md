@@ -7,8 +7,8 @@ These instructions were developed on a Mac with the `go` and `go-bindata` packag
 
 ### *NIX
 
-1. download the source code for package-builder at https://github.com/kolide/launcher/releases
-2. unzip the source and chdir to that directory
+1. `git clone https://github.com/kolide/launcher.git`
+2. `cd launcher`
 3. run `make deps`
 4. run `make package-builder`
 5. change to the `build` directory
@@ -19,7 +19,7 @@ Note that in some cases I needed to specify package_version and also that you ne
 
 ### Windows
 
-(this was copied from Just A Larry on the osquery slack)
+(this was copied from Just A Larry on the osquery slack, circa March 2020)
 
 #### setup working dir
 
